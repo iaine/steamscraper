@@ -9,3 +9,7 @@ Please raise this on the issue queue.
 ### Development
 
 This is research software so likely to move in fits and starts. Ideas are welcome by the issue queue or code contribution.
+
+### Documentation
+
+[https://iaine.github.io/steamscraper/](https://iaine.github.io/steamscraper/)
