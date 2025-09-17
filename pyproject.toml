@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cim-steam-scraper"
+version = "0.0.1"
+dependencies = [
+  "bs4",
+  "urllib",
+  "pandas",
+]
+
+authors = [
+  {name = "Iain Emsley", email = "iain.emsley@warwick.ac.uk"},
+]
+description = "A simple scraper for Steam market"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+keywords = ["scraper", "steam", "digital method", "web"]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Build Tools",
+
+  "Programming Language :: Python :: 3",
+]
+
+Homepage = "https://github.com/iaine/steamscraper"
+Documentation = "https://github.com/iaine/steamscraper"
+Repository = "https://github.com/iaine/steamscraper.git"
+Issues = "https://github.com/iaine/steamscraper/issues"

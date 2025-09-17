@@ -57,7 +57,7 @@ class SteamScraper():
         link_details = []
 
         for l in links:
-            link_details.append(get_link_details(l))
+            link_details.append(self.get_link_details(l))
         
         return link_details
 
